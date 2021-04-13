@@ -1,0 +1,17 @@
+.main {
+    height: 100vh;
+}
+
+.container {
+    width: 300px;;
+}
+
+.portion {
+    width: 150px;
+    height: 150px;
+}
+
+.start {
+    height: 50px;
+    width: 300px;
+}

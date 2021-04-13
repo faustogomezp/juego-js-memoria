@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    min-width: 375px;
+}
+
+.container {
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.hide{
+    display: none;
+}
+
+.portion {
+    width: 100px;
+    height: 100px;
+}
+
+.top-left {
+    border-top-left-radius: 100%;
+}
+
+.bottom-left {
+    border-bottom-left-radius: 100%;
+}
+
+.top-right {
+    border-top-right-radius: 100%;
+}
+
+.bottom-right {
+    border-bottom-right-radius: 100%;
+}
+
+.blue {
+    background-color: cornflowerblue;
+}
+
+.purple {
+    background-color: purple;
+
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green  {
+    background-color: green;
+}
+
+.light {
+    mix-blend-mode: hard-light;
+}
+
+.start {
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    font-size: 1.6rem;
+    align-self: center;
+}
